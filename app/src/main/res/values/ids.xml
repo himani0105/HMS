@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinner_speciality" type="id" />
+    <item name="spinner_doctor" type="id" />
+    <item name="spinner_schedule" type="id" />
+    <item name="date_start" type="id" />
+    <item name="date_end" type="id" />
+    <item name="text_schedule" type="id" />
+    <item name="text_confirmation" type="id" />
+    <item name="text_cnic" type="id" />
+    <item name="edittext_password" type="id" />
+    <item name="edittext_cnic" type="id" />
+    <item name="btn_confirm" type="id" />
+    <item name="btn_next" type="id" />
+    <item name="view_schedule" type="id" />
+    <item name="text_password" type="id" />
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prescription"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_prescription" />
+        <item
+            android:id="@+id/nav_book_appointment"
+            android:icon="@drawable/ic_menu_appointment"
+            android:title="@string/menu_book_appointment" />
+        <item
+            android:id="@+id/nav_view_appointment"
+            android:icon="@drawable/ic_menu_appointment"
+            android:title="@string/menu_view_appointment" />
+        <item
+            android:id="@+id/nav_view_receipt"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="View Receipt"/>
+    </group>
+</menu>

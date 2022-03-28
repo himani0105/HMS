@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_prescription">
+
+    <fragment
+        android:id="@+id/nav_prescription"
+        android:name="com.example.hms.PrescriptionFragment"
+        android:label="@string/menu_prescription"
+        tools:layout="@layout/fragment_prescription" />
+
+    <fragment
+        android:id="@+id/nav_book_appointment"
+        android:name="com.example.hms.BookAppointmentFragment"
+        android:label="@string/menu_book_appointment"
+        tools:layout="@layout/fragment_book_appointment"/>
+
+    <fragment
+        android:id="@+id/nav_view_receipt"
+        android:name="com.example.hms.ViewReceiptFragment"
+        android:label="@string/menu_view_receipt"
+        tools:layout="@layout/fragment_view_receipt" />
+
+    <fragment
+        android:id="@+id/nav_view_appointment"
+        android:name="com.example.hms.ViewAppointmentFragment"
+        android:label="@string/menu_view_appointment"
+        tools:layout="@layout/fragment_view_appointment" />
+</navigation>
